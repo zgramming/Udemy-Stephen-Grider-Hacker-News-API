@@ -14,7 +14,6 @@ class Repository {
   List<Cache> caches = <Cache>[
     newsDbProvider,
   ];
-
   // Iterate over sources when dbprovider
   // get fetchtopids implemented
   Future<List<int>> fetchTopIds() {
